@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTest" parallel="tests">
+  
+  <test name="Assignment 09">
+  <parameter name="URL" value="https://alloyui.com/examples/datepicker/"/>
+  <parameter name="browser" value="chromea"/>
+    <classes>
+      	<class name="com.cts.aig.selenium.test.testCase.Assignment09"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Assignment 09_a">
+  <parameter name="URL" value="https://alloyui.com/examples/datepicker/"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      	<class name="com.cts.aig.selenium.test.testCase.Assignment09"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
